@@ -21,7 +21,7 @@ The core functionality of this project includes:
     * **Prompt Engineering**
     * **ConversationBufferWindowMemory:** For maintaining context during the coaching session.
 * **Own dataset:** [Link Text](https://huggingface.co/datasets/AlbertoB12/GuidedMeditations1)
-      * Data Augmentation and Synthetic Data Generation starting from an already existing dataset: [Link Text](https://huggingface.co/datasets/BuildaByte/Meditation-miniset-v0.1)
+  * Data Augmentation and Synthetic Data Generation starting from an already existing dataset: [Link Text](https://huggingface.co/datasets/BuildaByte/Meditation-miniset-v0.1)
 
 ## Key Features ✨
 
