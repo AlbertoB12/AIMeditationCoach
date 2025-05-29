@@ -5,6 +5,7 @@ This project provides an interactive AI meditation experience. It leverages a la
 The idea for the project arose from my own dataset:
 * **Own dataset:** [Link Text](https://huggingface.co/datasets/AlbertoB12/GuidedMeditations1)
   * Data Augmentation and Synthetic Data Generation starting from an already existing dataset: [Link Text](https://huggingface.co/datasets/BuildaByte/Meditation-miniset-v0.1)
+  * 
 This project is an attempt to create an economically viable application, avoiding the high costs of creating a sufficient dataset, fine-tuning a custom model, and hosting the model in the cloud. To do this, it relies on frontier models and prompt engineering.
 
 ## Overview 🧐
