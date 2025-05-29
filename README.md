@@ -1,6 +1,11 @@
 # 🧘 AIMeditationCoach - Your Personalized AI Meditation Guide 🧠
 
-This project provides an interactive AI meditation experience. It leverages a large language model and RAG with a Qdrant database to generate personalized guided meditation scripts based on user input and offers a follow-up coaching session for reflection and support.
+This project provides an interactive AI meditation experience. It leverages a large language model and LangChain to generate personalized guided meditation scripts based on user input and offers a follow-up coaching session for reflection and support.
+
+The idea for the project arose from my own dataset:
+* **Own dataset:** [Link Text](https://huggingface.co/datasets/AlbertoB12/GuidedMeditations1)
+  * Data Augmentation and Synthetic Data Generation starting from an already existing dataset: [Link Text](https://huggingface.co/datasets/BuildaByte/Meditation-miniset-v0.1)
+This project is an attempt to create an economically viable application, avoiding the high costs of creating a sufficient dataset, fine-tuning a custom model, and hosting the model in the cloud. To do this, it relies on frontier models and prompt engineering.
 
 ## Overview 🧐
 
@@ -15,13 +20,9 @@ The core functionality of this project includes:
 
 * **Python**
 * **Langchain**
-    * **QdrantVectorStore**
-    * **HuggingFaceEmbeddings**
     * **VertexAI (Gemini)**
     * **Prompt Engineering**
     * **ConversationBufferWindowMemory:** For maintaining context during the coaching session.
-* **Own dataset:** [Link Text](https://huggingface.co/datasets/AlbertoB12/GuidedMeditations1)
-  * Data Augmentation and Synthetic Data Generation starting from an already existing dataset: [Link Text](https://huggingface.co/datasets/BuildaByte/Meditation-miniset-v0.1)
 
 ## Key Features ✨
 
@@ -30,7 +31,6 @@ The core functionality of this project includes:
 * **Incorporates Pauses:** Marks pauses naturally for a better spoken experience.
 * **Follow-Up AI Coaching:** Provides an opportunity for reflection and conversation after meditation.
 * **Contextual Chat:** Remembers recent interactions for more coherent coaching.
-* **Potential for Knowledge Retrieval:** Includes setup for a vector store, suggesting future capability to incorporate specific meditation techniques or information.
 
 ## Potential Improvements ✨
 
